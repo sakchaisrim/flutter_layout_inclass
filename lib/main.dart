@@ -1,6 +1,7 @@
 import 'package:fluter_layout_inclass/center_widget_layout.dart';
 import 'package:fluter_layout_inclass/container_widget_layout.dart';
 import 'package:fluter_layout_inclass/row_widget_layout.dart';
+import 'package:fluter_layout_inclass/welcome_screen.dart';
 
 import 'package:flutter/material.dart';
 
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.purple
       ),
-      home: RowWidgetPage(),
+      home: WelcomePage(),
     );
   }
 }
